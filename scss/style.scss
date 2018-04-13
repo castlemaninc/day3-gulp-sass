@@ -1,11 +1,14 @@
+/*SCSS Variables*/
+
 $sassy: #D1649B;
 $gulpy: #EA4A4A;
 $orange: #ff9800;
 $orange-darken: #fb8c00; 
 $amber: #ffc107; 
-$light-blue: #03a9f4; 
-
+$light-blue: #03a9f4;
 $boxshadow1: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+$boxshadow2: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px;
+
 
 * {
 	box-sizing: border-box;
@@ -29,8 +32,6 @@ header {
 		font-family: 'Pacifico', cursive;
 	}
 }
-
-
 
 .wrap {
 	width: 60%;
@@ -76,10 +77,16 @@ header {
 		.card-button {
 			width: auto;			
 			color: white;			
-			padding: 4% 5%;			
+			padding: 4% 5%;
+			box-shadow: $boxshadow1;			
 
 			&:hover {
 				background-color: $orange-darken;
+				box-shadow: $boxshadow2;
+			}
+
+			&:active {
+				box-shadow: $boxshadow1;
 			}						
 		}
 
