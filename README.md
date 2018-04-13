@@ -19,7 +19,7 @@ gulp.task('sass', function(){
 
 ```
 
-The following snippet is a watch task, which watches for all changes to .scss files in the scss folder. 
+The following snippet is a watch task, which watches for all changes to .scss files in the scss folder. On changes it will execute the above gulp task named 'sass'.
 
 ```
 gulp.task('watch', function(){	
