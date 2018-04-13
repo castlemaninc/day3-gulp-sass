@@ -1,12 +1,12 @@
 body {
   color: #909090;
-  font-family: "Pacifico", cursive;
-}
+  font-family: 'Pacifico', cursive; }
+
+p {
+  color: blue; }
 
 .gulp-heading {
-  color: #EA4A4A;
-}
+  color: #EA4A4A; }
 
 .sass-heading {
-  color: #D1649B;
-}
+  color: #D1649B; }

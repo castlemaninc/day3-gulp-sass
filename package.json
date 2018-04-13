@@ -1,0 +1,23 @@
+{
+  "name": "day3-gulp-sass",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/castlemaninc/day3-gulp-sass.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/castlemaninc/day3-gulp-sass/issues"
+  },
+  "homepage": "https://github.com/castlemaninc/day3-gulp-sass#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-sass": "^4.0.1"
+  }
+}
