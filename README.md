@@ -18,3 +18,11 @@ gulp.task('sass', function(){
 });
 
 ```
+
+The following snippet is a watch task, which watches for all changes to .scss files in the scss folder. 
+
+```
+gulp.task('watch', function(){	
+	gulp.watch('./scss/**/*.scss', ['sass']); 
+});
+```
